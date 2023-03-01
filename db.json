@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "62730392-58eb-4379-a695-cb9adff4d858",
+      "user": "Furkan",
+      "title": "Mvc ile proje yapma",
+      "text": "nasıl yapılır?"
+    },
+    {
+      "id": "6a95a0dd-41da-4a96-97d4-99a54305daca",
+      "user": "Furkan",
+      "title": "Selam",
+      "text": "merhabalar yardım edin"
+    },
+    {
+      "id": "62730392-58eb-4379-a695-cb9ad1f4d858",
+      "user": "Bilal",
+      "title": "Mvc ile proje yapamıyorum",
+      "text": "nasıl yapılır?"
+    },
+    {
+      "id": "6a95a0dd-41da-4a96-97d4-99a54005daca",
+      "user": "Bilal",
+      "title": "Selamlar",
+      "text": "merhabalar yardım edin"
+    }
+  ]
+}

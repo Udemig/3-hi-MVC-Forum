@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2d42;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: #ffbe0b;
+}
+header a{
+    background-color: #ffbe0b;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+
+/* LİSTELEME */
+
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.post {
+  color: color;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container .post-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* EKLEME SAYFASI */
+
+form{
+
+  width: 50vw;
+  margin: 300px auto;
+  height: 50vh;
+  background-color: #8d99ae;
+  padding: 50px 30px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+form fieldset{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 10px;
+}
+form fieldset input{
+  border:none;
+  max-width: 150px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+form button{
+  padding: 10px 20px;
+  background-color: #ffbe0b;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.modal{
+  width: 50vw;
+  height: 70vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #8d99ae;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 20px;
+}
+.modal h1 span{
+  color: #ffbe0b;
+}
